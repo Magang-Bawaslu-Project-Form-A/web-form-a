@@ -25,7 +25,7 @@ Route::get('/', function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/login', [LoginController::class, 'index']);
-Route::get('/login', [LoginController::class, 'index']);
+
 
 // Route::get('/login', function () {
 //     return view('login.index');
